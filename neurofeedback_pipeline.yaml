@@ -1,0 +1,32 @@
+graphs:
+  - id: neurofeedback
+    nodes:
+    - id: lsl_input
+      module: timeflux.nodes.lsl
+      class: Receive
+      params:
+        name: OpenViBE_EEG_Stream
+        type: EEG
+
+    - id: cfir_filter
+      module: modules.cfir_node
+      class: CFIRNode
+      params:
+        fs: 250  # Sampling rate
+        delay: 0  # Specify the desired delay here
+        n_taps: 500
+        n_fft: 2000
+        calibration_time: 60  # 60 seconds calibration
+
+    - id: lsl_output
+      module: timeflux.nodes.lsl
+      class: Send
+      params:
+        name: Neurofeedback_Stream
+        type: Feedback
+
+    edges:
+    - source: lsl_input
+      target: cfir_filter
+    - source: cfir_filter
+      target: lsl_output
