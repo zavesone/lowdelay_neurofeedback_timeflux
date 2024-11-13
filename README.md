@@ -1,3 +1,8 @@
+## Visual Environment Demo
+[![Neurofeedback Environment in UE5](https://img.youtube.com/vi/G4-PEHXkyxI/0.jpg)](https://youtu.be/G4-PEHXkyxI)
+
+*This demo showcases the immersive environment component designed for neurofeedback training. The scene demonstrates dynamic weather system transitions from adverse to favorable conditions, which will serve as visual feedback for successful alpha rhythm training in the full implementation.*
+
 # lowdelay_neurofeedback_timeflux
 A low delay neurofeedback script made with time flux based on the paper "Short-delay neurofeedback facilitates training of the parietal alpha  rhythm"
 
