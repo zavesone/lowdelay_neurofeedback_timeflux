@@ -1,5 +1,5 @@
 ## Visual Environment Demo
-[![Neurofeedback Environment in UE5](https://img.youtube.com/vi/G4-PEHXkyxI/0.jpg)](https://youtu.be/G4-PEHXkyxI)
+[![Neurofeedback Environment in UE5](https://img.youtube.com/vi/G4-PEHXkyxI/0.jpg)](https://youtu.be/785pJiuTfNY)
 
 *This demo showcases the immersive environment component designed for neurofeedback training. The scene demonstrates dynamic weather system transitions from adverse to favorable conditions, which will serve as visual feedback for successful alpha rhythm training in the full implementation.*
 
